@@ -12,8 +12,10 @@ def fibonacci_generator(number):
     return fibonacci_list[:number]
 
 
-# Use Fibonacci generator function
+# To convert the output of an input function which is a string to an integer.
 number = int(input("Enter the number to generate Fibonacci Series = "))
+
+# Use Fibonacci generator function
 fib = fibonacci_generator(number)
 
 # Print Fibonacci Series
